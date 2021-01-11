@@ -5,7 +5,7 @@ run
 ```bash
 pip3 install -r requirements
 ```
-Default ``settings`` file
+Default ``settings`` file should be on same level as main.py
 ```json
 {
     "realm": "server_name",
@@ -46,21 +46,21 @@ WRITE: Not written, same data from same hour.
 Reins of Poseidus
 67151         5750.0         1
 67151         5750.0         1
-...                                               # Actual results are here, this is just a condensed version
+...                                           # Actual results are here, this is just a condensed version
 67151        19990.0         1
 67151        19990.0         1
 =============================================
 Spirit of Harmony
 76061          190.0         1
 76061          190.0         1
-...                                               # Actual results are here, this is just a condensed version
+...                                           # Actual results are here, this is just a condensed version
 76061        19000.0         8
 76061       438131.0         4
 =============================================
 Mecha-Mogul Mk2
 161134      129000.0         1
 161134      129000.0         1
-...                                               # Actual results are here, this is just a condensed version
+...                                           # Actual results are here, this is just a condensed version
 161134      129000.0         1
 161134      999999.0         1
 ```

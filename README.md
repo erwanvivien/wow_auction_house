@@ -20,9 +20,9 @@ Locale is one of following: ``it_IT`` ``ru_RU`` ``en_GB`` ``zh_TW`` ``ko_KR`` ``
 
 Get client_id/client_secret here:
 
-https://develop.battle.net/access/ or https://develop.battle.net/access/clients (if connected)
+https://develop.battle.net/access/ (or https://develop.battle.net/access/clients **if connected**)
 
-Click 'create' or https://develop.battle.net/access/clients/create (if connected)
+Click 'create' (or https://develop.battle.net/access/clients/create **if connected**)
 
 ```
 client name: anything you want
@@ -30,9 +30,9 @@ redirect urls: empty
 check I don't have service urls
 Intended use: Auction house
 ```
-then validate, and click on your new app
+Then validate, and click on your new app. Finally, copy client_id and client_secret to the ``settings`` file
 
-Copy client_id and client_secret to the ``settings`` file
+Don't forget to update server and region ! :wink:
 
 ## Run the program
 ```bash

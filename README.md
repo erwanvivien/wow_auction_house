@@ -10,10 +10,13 @@ Default ``settings`` file should be on same level as main.py
 {
     "realm": "server_name",
     "region": "eu/us",
+    "locale": "en_US",
     "client_id": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     "client_secret": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }
 ```
+
+Locale is one of following: ``it_IT`` ``ru_RU`` ``en_GB`` ``zh_TW`` ``ko_KR`` ``en_US`` ``es_MX`` ``pt_BR`` ``es_ES`` ``zh_CN`` ``fr_FR`` ``de_DE``, will change the language for item search. (Default is ``en_US``)
 
 Get client_id/client_secret here:
 
